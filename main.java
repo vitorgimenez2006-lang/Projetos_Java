@@ -1,11 +1,16 @@
-import java.util.Scanner;
-
 public class Main {
-    public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        System.out.println("Digite seu nome:");
-        String nome = entrada.nextLine();
-        System.out.println("Olá, " + nome);
-        entrada.close();
+     public static void main(String[] args) {
+        Pessoa pessoa = new Pessoa();
+        Pessoa pessoa2 = new Pessoa();
+
+        pessoa.nome = " Vitor Tasso";
+        pessoa.idade = 52;
+
+        pessoa2.nome = " Joao pedro";
+        pessoa2.idade = 52;
+
+        pessoa.apresentar();
+        pessoa2.apresentar();
+    
     }
 }
