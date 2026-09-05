@@ -1,16 +1,20 @@
 public class Main {
-     public static void main(String[] args) {
+
+    public static void main(String[] args) {
+
         Pessoa pessoa = new Pessoa();
-        Pessoa pessoa2 = new Pessoa();
+        Financeiro financeiro = new Financeiro();
+        Estoque estoque = new Estoque();
+        Produto produto = new Produto();
+        Compras compras = new Compras();
+        Venda venda = new Venda();
+        Logistica logistica = new Logistica();
+        Patrimonio patrimonio = new Patrimonio();
+        PCP pcp = new PCP();
+        Fiscal fiscal = new Fiscal();
+        Configuracao configuracao = new Configuracao();
+        OrdemServico ordemServico = new OrdemServico();
 
-        pessoa.nome = " Vitor Tasso";
-        pessoa.idade = 52;
-
-        pessoa2.nome = " Joao pedro";
-        pessoa2.idade = 52;
-
-        pessoa.apresentar();
-        pessoa2.apresentar();
-    
+        System.out.println("Sistema iniciado!");
     }
 }
